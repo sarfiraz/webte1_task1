@@ -1,0 +1,160 @@
+body {
+    background-image: url("css/background.jpg");
+    margin: 20px;
+    font-size: 20px;
+    font-family: Arial, serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: darkolivegreen;
+
+}
+
+.author {
+    float: left;
+    margin: 5px 15px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+.top-screen-nav {
+    display: block;
+    margin-top: 50px;
+}
+
+.subpages {
+    text-align: center;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.subpages li {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 30px;
+    margin: 0 10px;
+    background-color: steelblue;
+
+}
+
+.menu-bar:hover {
+    background-color: tomato;
+
+}
+
+aside {
+    width: 20%;
+    float: right;
+    padding: 30px;
+    background-color: #999;
+    font-style: italic;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+/* zivotopis part css*/
+.two-parts {
+    width: 60%;
+    margin: 0 20vw;
+}
+
+.column {
+    height: 150vh;
+    box-sizing: border-box;
+    float: left;
+    justify-content: center;
+}
+
+.first-column {
+    width: 30%;
+    background-color: #999;
+    justify-content: center;
+}
+
+.cv-photo {
+    width: 100%;
+    height: 30%;
+    padding: 10px 0;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.second-column {
+    width: 70%;
+    background-color: gainsboro;
+}
+
+.contact {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+hr {
+    color: darkseagreen;
+}
+
+.name {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Comic Sans MS", serif;
+    font-weight: bold;
+}
+
+.first-page {
+    margin: 0 5px 0 5px;
+}
+
+#second-page {
+    margin: 80px 40px;
+}
+
+
+/*   rozvrh css     */
+
+
+th, td {
+    border: 1px solid #555;
+}
+
+td {
+    border-radius: 10px;
+}
+
+th, .day {
+    background-color: #ffb3b3;
+}
+
+.puzzle {
+    width: 100%;
+    height: 70vh;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.lecture {
+    background-color: #F1A146;
+}
+
+.seminar {
+    background-color: #9DE665;
+}
+
+.tk {
+    background-color: tomato;
+}
+
+.key {
+    margin-top: 100px;
+}
